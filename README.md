@@ -23,7 +23,7 @@ bash scripts/11_helm_install_openwhisk.sh
 bash scripts/12_openwhisk_bootstrap.sh
 bash scripts/14_smoke_test.sh
 ```
-API: `http://<IP_MAY_BAN>/api/v1`
+API: `http://<YOUR_IP>/api/v1`
 
 Dọn dẹp:
 ```bash
