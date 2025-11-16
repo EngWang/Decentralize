@@ -26,6 +26,9 @@ chmod +x *.sh
 # Deploy full infrastructure
 ./deploy-openwhisk.sh
 
+#add config for nginx
+./setup-nginx-config.sh
+
 # Verify deployment
 ./health-check.sh
 ```
@@ -217,4 +220,5 @@ After successful infrastructure deployment:
 2. Configure OpenWhisk to use this CouchDB instance
 3. Deploy OpenWhisk Controller and Invokers
 4. Set up Nginx reverse proxy for OpenWhisk API
+
 
